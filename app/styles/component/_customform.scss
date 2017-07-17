@@ -1,0 +1,57 @@
+// Custom input style
+input[type=checkbox],
+input[type=radio   ]{
+	width     : 2em;
+	margin    : 0;
+	padding   : 0;
+	opacity   : 0;
+}
+
+input[type=checkbox] + label,
+input[type=radio   ] + label{
+	display      : inline-block;
+	margin-left  : -2em;
+	font-weight  : normal;
+	cursor: pointer;
+}
+
+input[type=checkbox] + label > span,
+input[type=radio] + label > span{
+	@include sizeEx(1.2em);
+	display          : inline-block;
+	margin           : 0.25em 0.5em 0.15em 0;
+	border           : 1px solid rgb(192,192,192);
+	background       : rgb(255,255,255);
+	vertical-align   : bottom;
+	cursor: pointer;
+}
+
+input[type=checkbox]:disabled + label > span,
+input[type=radio   ]:disabled + label > span{
+	background-image : linear-gradient(rgb(240,240,240),rgb(230,230,230));
+}
+
+input[type=checkbox]:checked + label > span:before{
+	@include position(relative,-3px,null,null,-1px);
+	content     : '✓';
+	display     : block;
+	width       : 1.2em;
+	color       : rgb(153,204,102);
+	text-align  : center;
+	font-weight : bold;
+}
+
+input[type=radio] + label > span{
+	border-radius:50%;
+}
+
+input[type=radio]:checked +  label > span > span{
+	display          : block;
+	width            : 0.7em;
+	height           : 0.7em;
+	margin           : 0.18em;
+	border           : 1px solid rgb(115,153,77);
+	border-radius    : 50%;
+	background       : rgb(153,204,102);
+	background-image : linear-gradient(rgb(179,217,140),rgb(153,204,102));
+}

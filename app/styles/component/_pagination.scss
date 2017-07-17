@@ -1,0 +1,26 @@
+/* PAGING */
+.myPager{
+    margin-top: 20px;
+    a,span{
+        display: inline-block;
+        padding:8px 13px;
+        background:#002D5A;
+        font-size:16px;
+        color:#fff;
+        margin:0 -2px;
+        background-repeat:no-repeat;
+        &.active{
+            color:$link-color;
+        }
+    }
+    .prev{
+        background-image:url(../images/arrow-prev.png);
+        background-position: 10% center;
+        padding-left:24px;
+    }
+    .next{
+        background-image:url(../images/arrow-next.png);
+        background-position: 90% center;
+        padding-right:24px;
+    }
+}

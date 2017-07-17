@@ -1,0 +1,123 @@
+.main{
+	padding: 260px 0 50px;
+	.new-in{
+		.title-box {
+			p{
+				height: 40px;
+				background: url(../images/index-tl.png) no-repeat;
+				text-indent: -999em;
+				overflow: hidden;
+			}
+		}
+		.new-tap{
+			width: 424px;
+			height: 264px;
+			border: 1px solid #C5C5C5;
+			overflow: hidden;
+			position: relative;
+			.in-tabtl{
+				padding-left: 25px;
+				background: #323D59;
+				height: 46px;
+				line-height: 46px;
+				p{
+					padding: 0;
+					margin: 0;
+				}
+				a{
+					color: #fff;
+					font-size: 14px;
+				}
+				.tab-title{
+					a{
+						margin-right: 10px;
+						.line{
+							display: inline-block;
+							margin-right: 10px;
+							width: 1px;
+							height: 15px;
+							background: url(../images/news-line.png) no-repeat 0 0;
+							vertical-align: middle;
+						}
+						&:hover,&:focus,&:active{
+							text-decoration: none;
+							color: #afbee9;
+						}
+					}
+					
+				}
+				.tab-more{
+					position: absolute;
+					position: absolute;
+					top: 0;
+					right: 0;
+					width: 45px;
+					height: 45px;
+					margin-right: 0;
+					/*text-indent: -999em;*/
+					text-align: center;
+					background: #242c3f;
+					i{
+						font-size: 20px;
+					}
+				}
+			}
+			.tap-list{
+				.top-info{
+					padding: 10px 0 13px;
+					p{
+						padding: 0;
+						margin: 0;
+					}
+					.hot-new{
+						a{
+							color: #c00;
+							&:hover,&:active,&:focus{
+								text-decoration: none;
+								color: #f60;
+							}
+						}
+					}
+					.hot-lst{
+						padding: 10px 0;
+						span{
+							margin: 0 10px;
+							color: #c5c5c5;
+						}
+					}
+					.btline{
+						border-top: 1px solid #D5D5D5;
+					}
+					.new-lst{
+						margin-left: 15px;
+						padding-top: 10px;
+						width: 390px;
+						line-height: 24px;
+						li{
+							&:hover{
+								.time{
+									color:#BF6300;
+								}
+							}
+						}
+						a{
+							color: #666;
+							&:hover{
+								color:#BF6300;
+								
+							}
+						}
+					}
+					.hot-lst{
+						a{
+							color: #666;
+							&:hover{
+								color:#BF6300;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+// ERROR MESSAGE
+.error-messages.error-messages.ng-active {
+	background:$brand-danger;
+	color:white;
+	padding:5px;
+	margin-top:5px;
+	position:relative;
+}
+.error-messages.ng-active:after {
+	position:absolute;
+	top:-10px;
+	content:"";
+	left:20px;
+	border-style:solid;
+	border-color:transparent transparent $brand-danger;
+	border-width:5px;
+}

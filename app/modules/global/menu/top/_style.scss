@@ -1,0 +1,33 @@
+/*nts91.com*/
+#mod-menu-top{
+	min-height: 45px;
+	border-bottom: solid 1px #d9d9d9;
+	width: 100%;
+	.menutop{
+		height: 100%;
+		overflow: hidden;
+		ul {
+			margin-bottom: 0;
+			min-height: 100%;
+			overflow: hidden;
+			li {
+			width: 33%;
+			text-align: center;
+			border-right: solid 1px #d9d9d9;
+			min-height: 45px;
+			a{
+				width: 100%;
+				padding-top: 15px;
+				display: block;
+				i{
+					padding-right: 5px;
+				}
+			}
+		 }
+		 li:last-child{
+		 	border-right: none;
+		 }
+		}
+	}
+}
+

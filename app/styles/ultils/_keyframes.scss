@@ -1,0 +1,8 @@
+@keyframes stretchDelay{
+	0%, 40%, 100% {
+		transform: scaleY(0.7);
+	}
+	20% {
+		transform: scaleY(1.0);
+	}
+}

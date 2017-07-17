@@ -1,0 +1,16 @@
+<div id="mod-about">
+	<div class="container">
+		<div id="detail">
+			<h1>Latin professor at Hampden Sydney College in Virginia</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio voluptatem nemo numquam est alias reprehenderit dolorem repellat cumque voluptas similique quidem accusantium sunt, nobis, non minima aperiam dolorum expedita perspiciatis voluptates sit incidunt excepturi dolor tempore. Sit sapiente, voluptates accusantium!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio voluptatem nemo numquam est alias reprehenderit dolorem repellat cumque voluptas similique quidem accusantium sunt, nobis, non minima aperiam dolorum expedita perspiciatis voluptates sit incidunt excepturi dolor tempore. Sit sapiente, voluptates accusantium!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio voluptatem nemo numquam est alias reprehenderit dolorem repellat cumque voluptas similique quidem accusantium sunt, nobis, non minima aperiam dolorum expedita perspiciatis voluptates sit incidunt excepturi dolor tempore. Sit sapiente, voluptates accusantium!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio voluptatem nemo numquam est alias reprehenderit dolorem repellat cumque voluptas similique quidem accusantium sunt, nobis, non minima aperiam dolorum expedita perspiciatis voluptates sit incidunt excepturi dolor tempore. Sit sapiente, voluptates accusantium!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio voluptatem nemo numquam est alias reprehenderit dolorem repellat cumque voluptas similique quidem accusantium sunt, nobis, non minima aperiam dolorum expedita perspiciatis voluptates sit incidunt excepturi dolor tempore. Sit sapiente, voluptates accusantium!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio voluptatem nemo numquam est alias reprehenderit dolorem repellat cumque voluptas similique quidem accusantium sunt, nobis, non minima aperiam dolorum expedita perspiciatis voluptates sit incidunt excepturi dolor tempore. Sit sapiente, voluptates accusantium!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio voluptatem nemo numquam est alias reprehenderit dolorem repellat cumque voluptas similique quidem accusantium sunt, nobis, non minima aperiam dolorum expedita perspiciatis voluptates sit incidunt excepturi dolor tempore. Sit sapiente, voluptates accusantium!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio voluptatem nemo numquam est alias reprehenderit dolorem repellat cumque voluptas similique quidem accusantium sunt, nobis, non minima aperiam dolorum expedita perspiciatis voluptates sit incidunt excepturi dolor tempore. Sit sapiente, voluptates accusantium!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio voluptatem nemo numquam est alias reprehenderit dolorem repellat cumque voluptas similique quidem accusantium sunt, nobis, non minima aperiam dolorum expedita perspiciatis voluptates sit incidunt excepturi dolor tempore. Sit sapiente, voluptates accusantium!</p>
+		</div>
+	</div>
+</div>

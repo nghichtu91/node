@@ -1,0 +1,73 @@
+// LOADING
+.btnWithLoading{
+	@include position(relative,null,null,null,null);
+	span{
+		visibility: hidden;
+	}
+	.bar{
+		@include position(absolute,50%,null,null,50%);
+		@include sizeEx(40px,20px);
+		margin:-10px 0 0 -20px;
+		transition:200ms linear opacity;
+		&.ng-enter,&.ng-leave.ng-leave-active {
+			opacity:0;
+		}
+		&.ng-leave,&.ng-enter.ng-enter-active {
+			opacity:1;
+		}
+	}
+	.bar>div {
+		@include sizeEx(4px,20px);
+		margin: 0 1px 0 0;
+		background-color: #fff;
+		display: inline-block;
+		border-radius:3px;
+		animation: stretchDelay
+		 0.9s infinite ease-in-out;
+	}
+	.bar .rect2 {
+		animation-delay: -0.8s;
+	}
+	.bar .rect3 {
+		animation-delay: -0.7s;
+	}
+}
+#loading{
+	@include position(fixed,0,null,null,0);
+	@include sizeEx(100%);
+	background-color: rgba(0,0,0,0.6);
+	transition:200ms linear opacity;
+	z-index: 500;
+	&.ng-enter,&.ng-leave.ng-leave-active {
+		opacity:0;
+	}
+	&.ng-leave,&.ng-enter.ng-enter-active {
+		opacity:1;
+	}
+	.bar{
+		@include position(absolute,50%,null,null,50%);
+		@include sizeEx(40px,20px);
+		margin:-10px 0 0 -20px;
+	}
+	.bar>div {
+		@include sizeEx(4px,20px);
+		margin: 0 1px 0 0;
+		background-color: #3671FF;
+		display: inline-block;
+		border-radius:3px;
+		animation: stretchDelay
+		 0.9s infinite ease-in-out;
+	}
+	.bar .rect2 {
+		animation-delay: -0.8s;
+	}
+	.bar .rect3 {
+		animation-delay: -0.7s;
+	}
+	.bar .rect4 {
+		animation-delay: -0.6s;
+	}
+	.bar .rect5 {
+		animation-delay: -0.5s;
+	}
+}

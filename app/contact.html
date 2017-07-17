@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <title>Contact</title>
+    {% include: 'commom/head-bundle.tpl' %}
+</head>
+<body>
+    {% include: 'commom/check-ie.tpl' %}
+    {% include: 'modules/global/banner/view.tpl' %}
+    {% include: 'modules/global/menu/view.tpl' @home:'' @about:'' @contact:'active' %}
+    {% include: 'modules/contact/view.tpl' %}
+    {% include: 'modules/global/footer/view.tpl' %}
+    {% include: 'commom/script-bundle.tpl' %}
+    {% include: 'commom/google-analytic.tpl' %}
+</body>
+</html>

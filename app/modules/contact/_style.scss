@@ -1,0 +1,22 @@
+#mod-contact{
+	.container{
+		background: #fff;
+	}
+	.info{
+		text-align: center;
+		.desc{
+
+		}
+	}
+	.form{
+		width:600px;
+		margin:40px auto;
+		>div{
+			margin:10px 0;
+		}
+		.textbox{
+			width:100%;
+			padding:10px;
+		}
+	}
+}
